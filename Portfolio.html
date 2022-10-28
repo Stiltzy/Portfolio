@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>    
-        <meta charset="utf-8">
-        <title>Brent McKenna Portfolio</title>
-
-        <link href="./vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    	<link rel="stylesheet" type="text/css" href="./vendor/bootstrap/css/bootstrap.min.css">
-    	<link rel="stylesheet" type="text/css" href="./css/finished.css">
+      <title>Brent McKenna Portfolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+      <!-- Bootstrap base minified css -->
+      <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  
+      <!-- Custom fonts for this template -->
+      <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  
+      <!-- Custom styles for this template -->
+      <link href="css/finished.css" rel="stylesheet">
     </head>
     <body>
         <!-- Navigation Rebuilt the Bootstrap way -->
@@ -69,155 +77,171 @@
         <main class="content"> <!-- added class -->
 
             <!-- Portfolio Grid Section -->
-    	<section class="portfolio pb-4" id="current projects"> <!-- Adapted from portfolio -->
-            <div class="container">
-              <h2 class="text-center text-uppercase text-secondary py-5">Current Projects</h2>
-              <hr class="star-dark mb-5">
-              <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                      <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-
-                            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                    <i class="fas fa-search-plus fa-3x"></i>
-                              </div>
-                            </div>
-                            <img class="img-fluid" src="images/portfolio/shark.png" alt="" />
-                      </a>
+    	<section class="Current Projects" id="current projects">
+        <div class="container">
+          <h2 class="text-center text-uppercase text-secondary mb-0">Current Projects</h2>
+          <hr class="star-dark mb-5" />
+          <!-- start of row -->
+          <div class="row">
+      
+        <!-- portfolio item 1 -->
+              <div class="col-md-6 col-lg-4">            	
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-1">
+                    <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                      <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                          <i class="fas fa-search-plus fa-3x"></i>
+                      </div>
                     </div>
-        
-                  <div class="col-md-6 col-lg-4">
-                      <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-                            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                    <i class="fas fa-search-plus fa-3x"></i>
-                              </div>
-                            </div>
-                            <img class="img-fluid" src="images/portfolio/bird.png" alt="" />
-                      </a>
-                    </div>
-        
-                  <div class="col-md-6 col-lg-4">
-                      <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-                            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                    <i class="fas fa-search-plus fa-3x"></i>
-                              </div>
-                            </div>
-                            <img class="img-fluid" src="images/portfolio/pacman.png" alt="">
-                      </a>
-                    </div>
-                    
-                    <div class="col-md-6 col-lg-4">
-                      <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-                            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                    <i class="fas fa-search-plus fa-3x"></i>
-                              </div>
-                            </div>
-                            <img class="img-fluid" src="images/portfolio/pirate.png" alt="">
-                      </a>
-                  </div>
-                    
-                    <div class="col-md-6 col-lg-4">
-                      <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-                            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                    <i class="fas fa-search-plus fa-3x"></i>
-                              </div>
-                            </div>
-                            <img class="img-fluid" src="images/portfolio/rocket.png" alt="">
-                      </a>
-                  </div>
-                    
-                  <div class="col-md-6 col-lg-4">
-                      <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-                            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                    <i class="fas fa-search-plus fa-3x"></i>
-                              </div>
-                            </div>
-                            <img class="img-fluid" src="images/portfolio/ghost.png" alt="">
-                      </a>
-                    </div>
+                    <img class="img-fluid" src="images/portfolio/shark.png" alt="">			
+          </div>
+          </div>
+      
+        <!-- portfolio item 2 -->
+              <div class="col-md-6 col-lg-4">            	
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-2">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-      </section>
+            <img class="img-fluid" src="images/portfolio/bird.png" alt="">			
+          </div>
+        </div>
+
+        <!-- portfolio item 3 -->
+        <div class="col-md-6 col-lg-4">            	
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-3">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="images/portfolio/pacman.png" alt="">			
+          </div>
+        </div>
+
+        <!-- portfolio item 4 -->
+        <div class="col-md-6 col-lg-4">            	
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-4">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="images/portfolio/pirate.png" alt="">			
+          </div>
+        </div>
+
+        <!-- portfolio item 5 -->
+        <div class="col-md-6 col-lg-4">            	
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-5">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="images/portfolio/rocket.png" alt="">			
+          </div>
+        </div>
+
+        <!-- portfolio item 6 -->
+        <div class="col-md-6 col-lg-4">            	
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-6">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="images/portfolio/ghost.png" alt="">			
+          </div>
+        </div>
+
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+    </section>
 
       <section class="portfolio pb-4" id="past projects"> <!-- Adapted from portfolio -->
         <div class="container">
           <h2 class="text-center text-uppercase text-secondary py-5">Past Projects</h2>
-          <hr class="star-dark mb-5">
-          <div class="row">
-                <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+          <hr class="star-dark mb-5" />
+        		<!-- start of row -->
+        		<div class="row">
+			  
+					<!-- portfolio item 1 -->
+          			<div class="col-md-6 col-lg-4">            	
+						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-7">
+              				<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                				<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  					<i class="fas fa-search-plus fa-3x"></i>
+                				</div>
+              				</div>
+              				<img class="img-fluid" src="images/portfolio/freethrow.png" alt="">			
+						</div>
+			  		</div>
+			  
+					<!-- portfolio item 2 -->
+          			<div class="col-md-6 col-lg-4">            	
+						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-8">
+							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+									<i class="fas fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid" src="images/portfolio/bank.png" alt="">			
+						</div>
+					</div>
 
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                          <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fas fa-search-plus fa-3x"></i>
-                          </div>
-                        </div>
-                        <img class="img-fluid" src="images/portfolio/shark.png" alt="" />
-                  </a>
-                </div>
-    
-              <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                          <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fas fa-search-plus fa-3x"></i>
-                          </div>
-                        </div>
-                        <img class="img-fluid" src="images/portfolio/bird.png" alt="" />
-                  </a>
-                </div>
-    
-              <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                          <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fas fa-search-plus fa-3x"></i>
-                          </div>
-                        </div>
-                        <img class="img-fluid" src="images/portfolio/pacman.png" alt="">
-                  </a>
-                </div>
-                
-                <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                          <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fas fa-search-plus fa-3x"></i>
-                          </div>
-                        </div>
-                        <img class="img-fluid" src="images/portfolio/pirate.png" alt="">
-                  </a>
-              </div>
-                
-                <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                          <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fas fa-search-plus fa-3x"></i>
-                          </div>
-                        </div>
-                        <img class="img-fluid" src="images/portfolio/rocket.png" alt="">
-                  </a>
-              </div>
-                
-              <div class="col-md-6 col-lg-4">
-                  <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                          <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                                <i class="fas fa-search-plus fa-3x"></i>
-                          </div>
-                        </div>
-                        <img class="img-fluid" src="images/portfolio/ghost.png" alt="">
-                  </a>
-                </div>
-          </div>
-        </div>
-  </section>
+					<!-- portfolio item 3 -->
+					<div class="col-md-6 col-lg-4">            	
+						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-9">
+							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+									<i class="fas fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid" src="images/portfolio/pacman.png" alt="">			
+						</div>
+					</div>
+
+					<!-- portfolio item 4 -->
+					<div class="col-md-6 col-lg-4">            	
+						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-10">
+							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+									<i class="fas fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid" src="images/portfolio/pirate.png" alt="">			
+						</div>
+					</div>
+
+					<!-- portfolio item 5 -->
+					<div class="col-md-6 col-lg-4">            	
+						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-11">
+							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+									<i class="fas fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid" src="images/portfolio/rocket.png" alt="">			
+						</div>
+					</div>
+
+					<!-- portfolio item 6 -->
+					<div class="col-md-6 col-lg-4">            	
+						<div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolio-modal-12">
+							<div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+								<div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+									<i class="fas fa-search-plus fa-3x"></i>
+								</div>
+							</div>
+							<img class="img-fluid" src="images/portfolio/ghost.png" alt="">			
+						</div>
+					</div>
+
+				</div> <!-- /row -->
+			</div> <!-- /container -->
+    	</section>
 
       <!-- About Section -->
       <section class="bg-primary text-white py-5" id="about">
@@ -319,9 +343,421 @@
         <div class="container">
           <small>Copyright &copy; Your Website 2022</small>
         </div>
-    </div>
+      </div>
       
         </main>
     </body>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+  </div>
 
+<!-- Portfolio Modals -->
+
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-1" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-1-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/shark.png" alt="">
+    
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
+            recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+          </p>
+    
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-2" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-2-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/bird.png" alt="">
+    
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
+            recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+          </p>
+    
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-3" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-3-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/pacman.png" alt="">
+    
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
+            recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+          </p>
+    
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-4" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-4-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/pirate.png" alt="">
+      
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
+            recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+          </p>
+      
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-5" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-5-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/rocket.png" alt="">
+      
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
+            recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+          </p>
+      
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-6" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-6-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/ghost.png" alt="">
+      
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
+            recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+          </p>
+      
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 7 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-7" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-1-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Frethrow Championship</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/freethrow.png" alt="">
+    
+          <p class="mb-5">
+            This was my very first game that I created from scratch using Pico-8.  The project's parameters were to include "physics" into our game in some form.  It is a simple game in which you use a shot power meter and an angle meter to try and make 2 freetrhows to win the game.  The project also had to have a win/lose scenario as well.
+          </p>
+    
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 8 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-8" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-2-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Bank Robbery</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/bank.png" alt="">
+    
+          <p class="mb-5">
+            This was the first project I designed and coded using Visual Studio Code.  The project was for a Game Jam within our class and had to have any or all of the parameters of "You're the bad guy", "Take one, leave the rest", and "Single player split screen".  I decided to do the bad guy and take one route where depending on the loot you decide to take, the guards get faster! Choose wisely!
+          </p>
+    
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 9 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-9" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-3-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/pacman.png" alt="">
+    
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
+            recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+          </p>
+    
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 10 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-10" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-4-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/pirate.png" alt="">
+      
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
+            recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+          </p>
+      
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 11 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-11" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-5-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/rocket.png" alt="">
+      
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
+            recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+          </p>
+      
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Modal 12 -->
+<div class="portfolio-modal modal fade" id="portfolio-modal-12" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-6-label" aria-hidden="true">
+  <div class="modal-dialog portfolio-modal-dialog bg-white modal-xl" role="document">
+
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">
+        <i class="fas fa-times"></i>
+      </span>
+    </button>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+          <hr class="star-dark mb-5">
+          <img class="img-fluid mb-5" src="images/portfolio/ghost.png" alt="">
+      
+          <p class="mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, 
+            recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+          </p>
+      
+          <button class="btn btn-primary" href="#" data-dismiss="modal">
+            <i class="fas fa-times fa-fw"></i>
+            Close Project
+          </button>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/main.js"></script>
 </html>

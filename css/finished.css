@@ -37,27 +37,27 @@ hr.star-dark:after {
     top: -.8em;
     display: inline-block;
     padding: 0 0.25em;
-    content: '\f0e7 ';
+    content: '\f6d9 ';
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 2em;
 }
   
 hr.star-light {
-    border-color: #fff;
+    border-color: rgb(255, 255, 255);
 }
   
 hr.star-light:after {
     color: #fff;
-    background-color: #19242F;
+    background-color: #ff7b00;
 }
   
 hr.star-dark {
-    border-color: #2C3E50;
+    border-color: #ff7b00;
 }
   
 hr.star-dark:after {
-    color: #2C3E50;
+    color: #ff7b00;
     background-color: white;
 }
 
@@ -124,15 +124,15 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #5f83a7;
+  color: #ff7b00;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #ff7b00;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #5f83a7;
+  color: #ff7b00;
 }
 
 #mainNav .navbar-toggler {
@@ -162,11 +162,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #5f83a7;
+    background: #ff7b00;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #5f83a7;
+    background: #ff7b00;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -286,12 +286,12 @@ header.masthead h2 {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: #ff7b00;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #fff;
 }
 
 a {
@@ -307,11 +307,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #19242F !important;
+  background-color: #ff7b00 !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #ff7b00 !important;
 }
 
 .text-primary {
